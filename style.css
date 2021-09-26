@@ -1,0 +1,22 @@
+/* #f1c27d skin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFCE5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.head {
+    background: red;
+    height: 100px;
+    height: 100px;
+}
