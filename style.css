@@ -10,13 +10,171 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FDFCE5;
+    background-color: #506D84;
     width: 100vw;
     height: 100vh;
+    
 }
 
 .head {
-    background: red;
-    height: 100px;
-    height: 100px;
+    position: absolute;
+    height: 35vmin;
+    width: 30vmin;
+    background-color: #D4B499;
+    border-radius: 70% 70% 100% 100%;
+}
+
+.leyebrow {
+    position: absolute;
+    height: 4vmin;
+    width: 6vmin;
+    top: 10.5vmin;
+    left: 6vmin;
+    background-color: transparent;
+    border-radius: 100%;
+    border-top: 1.5vmin solid #000;
+}
+
+.reyebrow {
+    position: absolute;
+    height: 4vmin;
+    width: 6vmin;
+    top: 10.5vmin;
+    left: 18vmin;
+    background-color: transparent;
+    border-radius: 100%;
+    border-top: 1.5vmin solid #000;
+}
+
+.leye {
+    position: absolute;
+    background-color: #fff;
+    height: 4vmin;
+    width: 6vmin;
+    top: 12vmin;
+    left: 6vmin;
+    border-radius: 100%;
+    border-top: 0.5vmin solid #F3D5C0;
+    border-bottom: 0.5vmin solid #F3D5C0;
+}
+
+.reye {
+    position: absolute;
+    background-color: #fff;
+    height: 4vmin;
+    width: 6vmin;
+    top: 12vmin;
+    left: 18vmin;
+    border-radius: 100%;
+    border-top: 0.5vmin solid #F3D5C0;
+    border-bottom: 0.5vmin solid #F3D5C0;
+}
+
+.liris {
+    position: absolute;
+    background-color: #523A28;
+    height: 2vmin;
+    width: 2vmin;
+    top: 0.5vmin;
+    left: 2.5vmin;
+    border-radius: 100%;
+}
+
+.lpupil {
+    position: absolute;
+    background-color: #000;
+    height: 1vmin;
+    width: 1vmin;
+    top: 0.5vmin;
+    left: 0.75vmin;
+    border-radius: 100%;
+}
+
+.riris {
+    position: absolute;
+    background-color: #523A28;
+    height: 2vmin;
+    width: 2vmin;
+    top: 0.5vmin;
+    left: 2.5vmin;
+    border-radius: 100%;
+}
+
+.rpupil {
+    position: absolute;
+    background-color: #000;
+    height: 1vmin;
+    width: 1vmin;
+    top: 0.5vmin;
+    left: 0.75vmin;
+    border-radius: 100%;
+}
+
+.nose {
+    position: absolute;
+    background-color: transparent;
+    height: 9vmin;
+    width: 4vmin;
+    top: 14vmin;
+    left: 13vmin;
+    border-left: 0.5vmin solid #C68B59;
+    border-bottom: 0.5vmin solid #C68B59;
+    border-radius: 100% 0% 50% 50%;
+}
+
+.mouth {
+    position: absolute;
+    height: 4vmin;
+    width: 11vmin;
+    top: 25vmin;
+    left: 9.5vmin;
+    background-color: #fff;
+    border-radius: 20% 20% 100% 100%;
+    border: 1vmin solid #b8696a;
+    border-width: 0.25vmin 0.1vmin 1vmin 0.1vmin;
+}
+
+.lear {
+    position: absolute;
+    height: 4vmin;
+    width: 3vmin;
+    background-color: #D4B499;
+    top: 15vmin;
+    left: -2vmin;
+    border-radius: 100% 0% 0% 100%;
+    border-left: 0.1vmin solid #D4B499;
+}
+
+.rear {
+    position: absolute;
+    height: 4vmin;
+    width: 3vmin;
+    background-color: #D4B499;
+    top: 15vmin;
+    right: -2vmin;
+    border-radius: 0% 100% 100% 0%;
+    border-right: 0.1vmin solid #D4B499;
+}
+
+
+
+
+.hair {
+    position: absolute;
+    height: 15vmin;
+    width: 27.5vmin;
+    top: -1vmin;
+    left: 1vmin;
+    background-color: transparent;
+    border-radius: 100% 100% 0% 0%;
+    border-top: 5vmin solid #2B2B2B;
+}
+
+.hair::before {
+    content: "";
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 10vmin;
+    width: 2vmin;
+    
 }
