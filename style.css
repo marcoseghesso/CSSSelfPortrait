@@ -13,7 +13,7 @@
     background-color: #506D84;
     width: 100vw;
     height: 100vh;
-    
+    z-index: -2;
 }
 
 .head {
@@ -115,8 +115,8 @@
     background-color: transparent;
     height: 9vmin;
     width: 4vmin;
-    top: 14vmin;
-    left: 13vmin;
+    top: 13vmin;
+    left: 13.5vmin;
     border-left: 0.5vmin solid #C68B59;
     border-bottom: 0.5vmin solid #C68B59;
     border-radius: 100% 0% 50% 50%;
@@ -139,10 +139,11 @@
     height: 4vmin;
     width: 3vmin;
     background-color: #D4B499;
-    top: 15vmin;
+    top: 13vmin;
     left: -2vmin;
     border-radius: 100% 0% 0% 100%;
     border-left: 0.1vmin solid #D4B499;
+    z-index: -1;
 }
 
 .rear {
@@ -150,10 +151,11 @@
     height: 4vmin;
     width: 3vmin;
     background-color: #D4B499;
-    top: 15vmin;
+    top: 13vmin;
     right: -2vmin;
     border-radius: 0% 100% 100% 0%;
     border-right: 0.1vmin solid #D4B499;
+    z-index: -1;
 }
 
 .hair {
@@ -184,20 +186,20 @@
     content: "";
     position: absolute;
     height: 1vmin;
-    width: 4vmin;
-    top: 4.1vmin;
-    left: -5vmin;
+    width: 5vmin;
+    top: 2vmin;
+    left: -5.1vmin;
     background-color: #2B2B2B;
-    box-shadow: 25vmin 0 #2B2B2B;
+    transform: rotate(-25deg);
 }
 
 .lglasses::after {
     content: "";
     position: absolute;
     height: 1vmin;
-    width: 3.5vmin;
-    top: 2.5vmin;
-    left: 8vmin;
+    width: 4.1vmin;
+    top: 1vmin;
+    left: 7.5vmin;
     background-color: #2B2B2B;
 }
 
@@ -210,4 +212,15 @@
     background-color: transparent;
     border: 0.9vmin solid #2B2B2B;
     border-radius: 30% 30% 30% 30%;
+}
+
+.rglasses::before {
+    content: "";
+    position: absolute;
+    height: 1vmin;
+    width: 5vmin;
+    top: 2vmin;
+    left: 7.3vmin;
+    background-color: #2B2B2B;
+    transform: rotate(25deg);
 }
