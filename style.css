@@ -73,9 +73,9 @@
 .liris {
     position: absolute;
     background-color: #523A28;
-    height: 2vmin;
-    width: 2vmin;
-    top: 0.5vmin;
+    height: 2.5vmin;
+    width: 2.5vmin;
+    top: 0.2vmin;
     left: 2.5vmin;
     border-radius: 100%;
 }
@@ -85,17 +85,17 @@
     background-color: #000;
     height: 1vmin;
     width: 1vmin;
-    top: 0.5vmin;
-    left: 0.75vmin;
+    top: 0.7vmin;
+    left: 0.9vmin;
     border-radius: 100%;
 }
 
 .riris {
     position: absolute;
     background-color: #523A28;
-    height: 2vmin;
-    width: 2vmin;
-    top: 0.5vmin;
+    height: 2.5vmin;
+    width: 2.5vmin;
+    top: 0.2vmin;
     left: 2.5vmin;
     border-radius: 100%;
 }
@@ -105,8 +105,8 @@
     background-color: #000;
     height: 1vmin;
     width: 1vmin;
-    top: 0.5vmin;
-    left: 0.75vmin;
+    top: 0.7vmin;
+    left: 1vmin;
     border-radius: 100%;
 }
 
@@ -124,7 +124,7 @@
 
 .mouth {
     position: absolute;
-    height: 4vmin;
+    height: 3.5vmin;
     width: 11vmin;
     top: 25vmin;
     left: 9.5vmin;
@@ -156,25 +156,58 @@
     border-right: 0.1vmin solid #D4B499;
 }
 
-
-
-
 .hair {
     position: absolute;
-    height: 15vmin;
-    width: 27.5vmin;
-    top: -1vmin;
-    left: 1vmin;
+    height: 20vmin;
+    width: 30vmin;
+    top: -2.5vmin;
+    left: 0vmin;
     background-color: transparent;
     border-radius: 100% 100% 0% 0%;
-    border-top: 5vmin solid #2B2B2B;
+    border-top: 4vmin solid #2B2B2B;
+    border-left: 1vmin solid #2B2B2B;
+    border-right: 1vmin solid #2B2B2B;
 }
 
-.hair::before {
+.lglasses {
+    position: absolute;
+    height: 8.5vmin;
+    width: 9vmin;
+    top: 9vmin;
+    left: 4.5vmin;
+    background-color: transparent;
+    border: 0.9vmin solid #2B2B2B;
+    border-radius: 30% 30% 30% 30%;
+}
+
+.lglasses::before {
     content: "";
     position: absolute;
+    height: 1vmin;
+    width: 4vmin;
+    top: 4.1vmin;
+    left: -5vmin;
     background-color: #2B2B2B;
-    height: 10vmin;
-    width: 2vmin;
-    
+    box-shadow: 25vmin 0 #2B2B2B;
+}
+
+.lglasses::after {
+    content: "";
+    position: absolute;
+    height: 1vmin;
+    width: 3.5vmin;
+    top: 2.5vmin;
+    left: 8vmin;
+    background-color: #2B2B2B;
+}
+
+.rglasses {
+    position: absolute;
+    height: 8.5vmin;
+    width: 9vmin;
+    top: 9vmin;
+    left: 16.5vmin;
+    background-color: transparent;
+    border: 0.9vmin solid #2B2B2B;
+    border-radius: 30% 30% 30% 30%;
 }
