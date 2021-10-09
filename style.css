@@ -1,4 +1,6 @@
-/* #f1c27d skin */
+/* border-top: 0.5vmin solid #F3D5C0;
+    border-bottom: 0.5vmin solid #F3D5C0; */
+
 * {
     margin: 0;
     padding: 0;
@@ -24,63 +26,70 @@
     border-radius: 70% 70% 100% 100%;
 }
 
-.leyebrow {
+.eyebrows{
     position: absolute;
     height: 4vmin;
-    width: 6vmin;
+    width: 18vmin;
     top: 10.5vmin;
     left: 6vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leyebrow {
+    display: inline-block;
+    height: 4vmin;
+    width: 6vmin;
     background-color: transparent;
     border-radius: 100%;
     border-top: 1.5vmin solid #000;
 }
 
 .reyebrow {
-    position: absolute;
+    display: inline-block;
     height: 4vmin;
     width: 6vmin;
-    top: 10.5vmin;
-    left: 18vmin;
+    right: 8vmin;
     background-color: transparent;
     border-radius: 100%;
     border-top: 1.5vmin solid #000;
 }
 
-.leye {
+.eyes {
     position: absolute;
-    background-color: #fff;
     height: 4vmin;
-    width: 6vmin;
+    width: 18vmin;
     top: 12vmin;
     left: 6vmin;
-    border-radius: 100%;
-    border-top: 0.5vmin solid #F3D5C0;
-    border-bottom: 0.5vmin solid #F3D5C0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.reye {
-    position: absolute;
+
+.eye {
+    display: inline-block;
     background-color: #fff;
     height: 4vmin;
     width: 6vmin;
-    top: 12vmin;
-    left: 18vmin;
     border-radius: 100%;
-    border-top: 0.5vmin solid #F3D5C0;
-    border-bottom: 0.5vmin solid #F3D5C0;
+    box-shadow: 12vmin 0 #fff;
 }
 
-.liris {
+.iris {
     position: absolute;
     background-color: #523A28;
     height: 2.5vmin;
     width: 2.5vmin;
-    top: 0.2vmin;
+    top: 0.4vmin;
     left: 2.5vmin;
     border-radius: 100%;
+    box-shadow: 12vmin 0 #523A28;
 }
 
-.lpupil {
+.pupil {
     position: absolute;
     background-color: #000;
     height: 1vmin;
@@ -88,26 +97,7 @@
     top: 0.7vmin;
     left: 0.9vmin;
     border-radius: 100%;
-}
-
-.riris {
-    position: absolute;
-    background-color: #523A28;
-    height: 2.5vmin;
-    width: 2.5vmin;
-    top: 0.2vmin;
-    left: 2.5vmin;
-    border-radius: 100%;
-}
-
-.rpupil {
-    position: absolute;
-    background-color: #000;
-    height: 1vmin;
-    width: 1vmin;
-    top: 0.7vmin;
-    left: 1vmin;
-    border-radius: 100%;
+    box-shadow: 12vmin 0 #000;
 }
 
 .nose {
@@ -134,28 +124,34 @@
     border-width: 0.25vmin 0.1vmin 1vmin 0.1vmin;
 }
 
-.lear {
+.ears {
     position: absolute;
+    height: 4vmin;
+    width: 36vmin;
+    top: 13vmin;
+    right: -3vmin;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lear {
+    display: inline-block;
     height: 4vmin;
     width: 3vmin;
     background-color: #D4B499;
-    top: 13vmin;
-    left: -2vmin;
     border-radius: 100% 0% 0% 100%;
     border-left: 0.1vmin solid #D4B499;
-    z-index: -1;
 }
 
 .rear {
-    position: absolute;
+    display: inline-block;
     height: 4vmin;
     width: 3vmin;
     background-color: #D4B499;
-    top: 13vmin;
-    right: -2vmin;
     border-radius: 0% 100% 100% 0%;
     border-right: 0.1vmin solid #D4B499;
-    z-index: -1;
 }
 
 .hair {
@@ -171,12 +167,21 @@
     border-right: 1vmin solid #2B2B2B;
 }
 
-.lglasses {
+.glasses {
     position: absolute;
     height: 8.5vmin;
-    width: 9vmin;
+    width: 21vmin;
     top: 9vmin;
     left: 4.5vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lglasses {
+    display: inline-block;
+    height: 8.5vmin;
+    width: 9vmin;
     background-color: transparent;
     border: 0.9vmin solid #2B2B2B;
     border-radius: 30% 30% 30% 30%;
@@ -188,7 +193,7 @@
     height: 1vmin;
     width: 5vmin;
     top: 2vmin;
-    left: -5.1vmin;
+    left: -4vmin;
     background-color: #2B2B2B;
     transform: rotate(-25deg);
 }
@@ -199,16 +204,16 @@
     height: 1vmin;
     width: 4.1vmin;
     top: 1vmin;
-    left: 7.5vmin;
+    left: 8.5vmin;
     background-color: #2B2B2B;
 }
 
 .rglasses {
-    position: absolute;
+    display: inline-block;
     height: 8.5vmin;
     width: 9vmin;
     top: 9vmin;
-    left: 16.5vmin;
+    left: 18vmin;
     background-color: transparent;
     border: 0.9vmin solid #2B2B2B;
     border-radius: 30% 30% 30% 30%;
@@ -220,7 +225,7 @@
     height: 1vmin;
     width: 5vmin;
     top: 2vmin;
-    left: 7.3vmin;
+    right: -3.9vmin;
     background-color: #2B2B2B;
     transform: rotate(25deg);
 }
