@@ -12,7 +12,6 @@
     background-color: #BFD8B8;
     width: 100vw;
     height: 100vh;
-    z-index: -2;
 }
 
 .head {
@@ -127,7 +126,6 @@
     width: 36vmin;
     top: 13vmin;
     right: -3vmin;
-    z-index: -1;
     display: flex;
     justify-content: space-between;
     align-items: center;
